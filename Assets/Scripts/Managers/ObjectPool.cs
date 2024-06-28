@@ -25,7 +25,6 @@ public class ObjectPool : MonoBehaviour
             return;
         }
         Instance = this;
-        DontDestroyOnLoad(this.gameObject);
 
         for (int i = 0; i < pools.Length; i++)
         {
